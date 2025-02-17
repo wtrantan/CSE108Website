@@ -12,8 +12,9 @@ body {
     header {
         background-color: black;
         color: white;
-        padding: 10px 0;
+       
         text-align: center;
+        padding: 20px;
     }
     img {
         background-color: rgb(52, 107, 180);
@@ -148,7 +149,7 @@ footer {
     .four-header {
         background-color: #000c66;
         color: white;
-        padding: 10px 0;
+        padding: 20px;
         text-align: center;
     }
     nav ul {
