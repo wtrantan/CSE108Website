@@ -61,6 +61,9 @@ img {
     max-width: 100%;
     height: auto;
 }
+.video-container {
+    padding: 5px;
+}
  iframe {
     width: 560px; 
     height: 315px;
@@ -105,13 +108,11 @@ footer {
     th, td {
         padding: 8px;
     }
-    .video-container {
-        padding-bottom: 65%; /* Adjust aspect ratio for smaller screens */
-        
-    }
+   
     .video-container iframe {
-        width: 80%;
+        width: 50%;
         height: auto;
+        padding: 5px;
     }
 }
 
@@ -135,12 +136,13 @@ footer {
         padding: 6px;
     }
     .video-container {
-        padding-bottom: 75%; /* More vertical space for mobile */
+        padding: 10px;
         
     }
     .video-container iframe {
-        width: 60%;
+        width: 100%;
         height: auto;
+        padding: 5px;
     }
 }
     .four-header {
