@@ -22,6 +22,118 @@ body {
         display: inline-block;
         border-radius: 10px;
     }
+
+    /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Header */
+header {
+    background-color: #004c97;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Responsive Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    img {
+        width: 80%; /* Reduce image size on tablets */
+    }
+
+    nav ul {
+        padding: 0;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    .table-container {
+        overflow-x: auto;  /* Enables horizontal scrolling */
+        -webkit-overflow-scrolling: touch;
+    }
+
+    table {
+        width: 100%;
+        font-size: 14px; /* Smaller text for readability */
+    }
+
+    th, td {
+        padding: 8px;
+    }
+    .video-container {
+        padding-bottom: 65%; /* Adjust aspect ratio for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    img {
+        width: 60%; /* Further reduce image size on mobile devices */
+    }
+
+    header h1 {
+        font-size: 20px; /* Smaller font size for small screens */
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+    table {
+        font-size: 12px; /* Even smaller text for tiny screens */
+    }
+
+    th, td {
+        padding: 6px;
+    }
+    .video-container {
+        padding-bottom: 75%; /* More vertical space for mobile */
+    }
+}
     .four-header {
         background-color: #000c66;
         color: white;
@@ -134,3 +246,18 @@ body {
         bottom: 0;
     }
 
+    .video-container {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+        height: 0;
+        overflow: hidden;
+    }
+    
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
