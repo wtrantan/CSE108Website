@@ -103,6 +103,11 @@ footer {
     }
     .video-container {
         padding-bottom: 65%; /* Adjust aspect ratio for smaller screens */
+        
+    }
+    .video-container iframe {
+        width: 80%;
+        height: auto;
     }
 }
 
@@ -127,6 +132,11 @@ footer {
     }
     .video-container {
         padding-bottom: 75%; /* More vertical space for mobile */
+        
+    }
+    .video-container iframe {
+        width: 60%;
+        height: auto;
     }
 }
     .four-header {
@@ -241,18 +251,17 @@ footer {
         bottom: 0;
     }
 
-    .video-container {
+    /* .video-container {
         position: relative;
-        width: 100%;
-        padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+        padding-bottom: 56.25%; /* 16:9 Aspect Ratio 
         height: 0;
         overflow: hidden;
-    }
-    
+    } */
+/*     
     .video-container iframe {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-    }
+    } */
