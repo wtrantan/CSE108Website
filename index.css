@@ -16,14 +16,19 @@ body {
         text-align: center;
         padding: 20px;
     }
-    img {
+   .me {
         background-color: rgb(52, 107, 180);
         margin: 20px;
         padding: 6px;
         display: inline-block;
         border-radius: 10px;
     }
-
+    img {
+        margin: 20px;
+        padding: 6px;
+        display: inline-block;
+        border-radius: 10px;
+    }
     /* General Styles */
 body {
     font-family: Arial, sans-serif;
